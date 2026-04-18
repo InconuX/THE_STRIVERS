@@ -1,0 +1,101 @@
+Time,Issue,Health,Report,SOP,Cur,Vib
+11:40:23,Normal Operation,100,Telemetry signature is optimal. Current matches RainMaker 2 baseline (~8.0A).,Maintain standard monthly visual inspection.,8.07,1.22
+11:39:23,Normal Operation,100,Telemetry signature is optimal. Current matches RainMaker 2 baseline (~8.0A).,Maintain standard monthly visual inspection.,7.85,1.29
+11:38:23,Severe Cavitation,30,Extreme vibrations (9.684434276383715mm/s) exceeding ISO 10816 limits. Net Positive Suction Head (NPSH) critically low.,Reduce MPPT controller frequency to stabilize fluid velocity and check pump submergence depth.,8.2,9.68
+11:37:23,Severe Cavitation,30,Extreme vibrations (9.925663241044662mm/s) exceeding ISO 10816 limits. Net Positive Suction Head (NPSH) critically low.,Reduce MPPT controller frequency to stabilize fluid velocity and check pump submergence depth.,8.19,9.93
+11:36:23,Normal Operation,100,Telemetry signature is optimal. Current matches RainMaker 2 baseline (~8.0A).,Maintain standard monthly visual inspection.,7.97,1.44
+11:35:23,Normal Operation,100,Telemetry signature is optimal. Current matches RainMaker 2 baseline (~8.0A).,Maintain standard monthly visual inspection.,7.9,1.19
+11:34:24,Sand Clogging,10,Mechanical overload detected (11.777998865892206A > 8A nominal baseline). High impeller friction due to sand drag.,Extract pump from borehole. Clean intake strainers and inspect impellers for abrasive wear.,11.78,3.46
+11:33:24,Sand Clogging,10,Mechanical overload detected (11.71579360219285A > 8A nominal baseline). High impeller friction due to sand drag.,Extract pump from borehole. Clean intake strainers and inspect impellers for abrasive wear.,11.72,3.49
+11:32:23,Normal Operation,100,Telemetry signature is optimal. Current matches RainMaker 2 baseline (~8.0A).,Maintain standard monthly visual inspection.,8.09,1.33
+11:32:01,Normal Operation,100,Telemetry signature is optimal. Current matches RainMaker 2 baseline (~8.0A).,Maintain standard monthly visual inspection.,7.97,1.58
+11:32:00,Normal Operation,100,Telemetry signature is optimal. Current matches RainMaker 2 baseline (~8.0A).,Maintain standard monthly visual inspection.,7.97,1.39
+11:31:57,Normal Operation,100,Telemetry signature is optimal. Current matches RainMaker 2 baseline (~8.0A).,Maintain standard monthly visual inspection.,7.98,1.42
+11:31:55,Normal Operation,100,Telemetry signature is optimal. Current matches RainMaker 2 baseline (~8.0A).,Maintain standard monthly visual inspection.,7.84,1.27
+11:31:53,Normal Operation,100,Telemetry signature is optimal. Current matches RainMaker 2 baseline (~8.0A).,Maintain standard monthly visual inspection.,7.93,1.45
+11:31:51,Severe Cavitation,30,Extreme vibrations (9.698269268082727mm/s) exceeding ISO 10816 limits. Net Positive Suction Head (NPSH) critically low.,Reduce MPPT controller frequency to stabilize fluid velocity and check pump submergence depth.,8.06,9.7
+11:31:49,Severe Cavitation,30,Extreme vibrations (9.638583813320274mm/s) exceeding ISO 10816 limits. Net Positive Suction Head (NPSH) critically low.,Reduce MPPT controller frequency to stabilize fluid velocity and check pump submergence depth.,8.12,9.64
+11:31:47,Severe Cavitation,30,Extreme vibrations (9.629553234444469mm/s) exceeding ISO 10816 limits. Net Positive Suction Head (NPSH) critically low.,Reduce MPPT controller frequency to stabilize fluid velocity and check pump submergence depth.,7.92,9.63
+11:31:45,Severe Cavitation,30,Extreme vibrations (9.744093762640427mm/s) exceeding ISO 10816 limits. Net Positive Suction Head (NPSH) critically low.,Reduce MPPT controller frequency to stabilize fluid velocity and check pump submergence depth.,8.09,9.74
+11:31:43,Normal Operation,100,Telemetry signature is optimal. Current matches RainMaker 2 baseline (~8.0A).,Maintain standard monthly visual inspection.,7.93,1.45
+11:31:41,Normal Operation,100,Telemetry signature is optimal. Current matches RainMaker 2 baseline (~8.0A).,Maintain standard monthly visual inspection.,8.04,1.33
+11:31:39,Normal Operation,100,Telemetry signature is optimal. Current matches RainMaker 2 baseline (~8.0A).,Maintain standard monthly visual inspection.,8.04,1.45
+11:31:37,Normal Operation,100,Telemetry signature is optimal. Current matches RainMaker 2 baseline (~8.0A).,Maintain standard monthly visual inspection.,8.0,1.46
+11:31:35,Sand Clogging,10,Mechanical overload detected (11.779486714815851A > 8A nominal baseline). High impeller friction due to sand drag.,Extract pump from borehole. Clean intake strainers and inspect impellers for abrasive wear.,11.78,3.28
+11:31:33,Sand Clogging,10,Mechanical overload detected (11.694101694703344A > 8A nominal baseline). High impeller friction due to sand drag.,Extract pump from borehole. Clean intake strainers and inspect impellers for abrasive wear.,11.69,3.59
+11:31:32,Sand Clogging,10,Mechanical overload detected (11.539123105815838A > 8A nominal baseline). High impeller friction due to sand drag.,Extract pump from borehole. Clean intake strainers and inspect impellers for abrasive wear.,11.54,3.33
+11:31:30,Sand Clogging,10,Mechanical overload detected (11.394194709055721A > 8A nominal baseline). High impeller friction due to sand drag.,Extract pump from borehole. Clean intake strainers and inspect impellers for abrasive wear.,11.39,3.54
+11:31:27,Normal Operation,100,Telemetry signature is optimal. Current matches RainMaker 2 baseline (~8.0A).,Maintain standard monthly visual inspection.,7.98,1.52
+11:31:25,Normal Operation,100,Telemetry signature is optimal. Current matches RainMaker 2 baseline (~8.0A).,Maintain standard monthly visual inspection.,7.93,1.43
+11:31:24,Normal Operation,100,Telemetry signature is optimal. Current matches RainMaker 2 baseline (~8.0A).,Maintain standard monthly visual inspection.,8.03,1.24
+11:31:21,Normal Operation,100,Telemetry signature is optimal. Current matches RainMaker 2 baseline (~8.0A).,Maintain standard monthly visual inspection.,7.89,1.46
+11:31:19,Dry Running,20,Current (5.337434121884343A) is abnormally low indicating loss of prime. Stator overheating risk.,IMMEDIATE SHUTDOWN. Verify static well water level and low-water probe calibration.,5.34,2.16
+11:31:17,Dry Running,20,Current (5.157142635787099A) is abnormally low indicating loss of prime. Stator overheating risk.,IMMEDIATE SHUTDOWN. Verify static well water level and low-water probe calibration.,5.16,2.23
+11:31:15,Dry Running,20,Current (5.211439937278289A) is abnormally low indicating loss of prime. Stator overheating risk.,IMMEDIATE SHUTDOWN. Verify static well water level and low-water probe calibration.,5.21,2.04
+11:31:13,Dry Running,20,Current (5.300344562585733A) is abnormally low indicating loss of prime. Stator overheating risk.,IMMEDIATE SHUTDOWN. Verify static well water level and low-water probe calibration.,5.3,2.29
+11:31:11,Normal Operation,100,Telemetry signature is optimal. Current matches RainMaker 2 baseline (~8.0A).,Maintain standard monthly visual inspection.,7.85,1.28
+11:31:09,Normal Operation,100,Telemetry signature is optimal. Current matches RainMaker 2 baseline (~8.0A).,Maintain standard monthly visual inspection.,7.93,1.27
+11:31:07,Normal Operation,100,Telemetry signature is optimal. Current matches RainMaker 2 baseline (~8.0A).,Maintain standard monthly visual inspection.,7.95,1.52
+11:31:05,Normal Operation,100,Telemetry signature is optimal. Current matches RainMaker 2 baseline (~8.0A).,Maintain standard monthly visual inspection.,8.18,1.34
+11:31:03,Normal Operation,100,Telemetry signature is optimal. Current matches RainMaker 2 baseline (~8.0A).,Maintain standard monthly visual inspection.,8.08,1.48
+11:31:01,Normal Operation,100,Telemetry signature is optimal. Current matches RainMaker 2 baseline (~8.0A).,Maintain standard monthly visual inspection.,7.88,1.45
+11:30:59,Normal Operation,100,Telemetry signature is optimal. Current matches RainMaker 2 baseline (~8.0A).,Maintain standard monthly visual inspection.,7.87,1.51
+11:30:57,Normal Operation,100,Telemetry signature is optimal. Current matches RainMaker 2 baseline (~8.0A).,Maintain standard monthly visual inspection.,7.97,1.3
+11:30:57,Normal Operation,100,Telemetry signature is optimal. Current matches RainMaker 2 baseline (~8.0A).,Maintain standard monthly visual inspection.,7.96,1.36
+11:30:23,Dry Running,20,Current (5.16010912426119A) is abnormally low indicating loss of prime. Stator overheating risk.,IMMEDIATE SHUTDOWN. Verify static well water level and low-water probe calibration.,5.16,2.24
+11:29:23,Dry Running,20,Current (5.217610887980361A) is abnormally low indicating loss of prime. Stator overheating risk.,IMMEDIATE SHUTDOWN. Verify static well water level and low-water probe calibration.,5.22,2.18
+11:28:29,Dry Running,20,Current (5.023300682183793A) is abnormally low indicating loss of prime. Stator overheating risk.,IMMEDIATE SHUTDOWN. Verify static well water level and low-water probe calibration.,5.02,2.29
+11:28:27,Dry Running,20,Current (5.2613522807807875A) is abnormally low indicating loss of prime. Stator overheating risk.,IMMEDIATE SHUTDOWN. Verify static well water level and low-water probe calibration.,5.26,2.22
+11:28:25,Dry Running,20,Current (5.133449004610194A) is abnormally low indicating loss of prime. Stator overheating risk.,IMMEDIATE SHUTDOWN. Verify static well water level and low-water probe calibration.,5.13,2.36
+11:28:23,Normal Operation,100,Telemetry signature is optimal. Current matches RainMaker 2 baseline (~8.0A).,Maintain standard monthly visual inspection.,8.02,1.18
+11:28:21,Normal Operation,100,Telemetry signature is optimal. Current matches RainMaker 2 baseline (~8.0A).,Maintain standard monthly visual inspection.,7.94,1.49
+11:28:19,Normal Operation,100,Telemetry signature is optimal. Current matches RainMaker 2 baseline (~8.0A).,Maintain standard monthly visual inspection.,7.89,1.41
+11:28:17,Normal Operation,100,Telemetry signature is optimal. Current matches RainMaker 2 baseline (~8.0A).,Maintain standard monthly visual inspection.,8.07,1.19
+11:28:15,Normal Operation,100,Telemetry signature is optimal. Current matches RainMaker 2 baseline (~8.0A).,Maintain standard monthly visual inspection.,8.23,1.31
+11:28:13,Normal Operation,100,Telemetry signature is optimal. Current matches RainMaker 2 baseline (~8.0A).,Maintain standard monthly visual inspection.,7.84,1.43
+11:28:11,Normal Operation,100,Telemetry signature is optimal. Current matches RainMaker 2 baseline (~8.0A).,Maintain standard monthly visual inspection.,7.98,1.36
+11:28:09,Normal Operation,100,Telemetry signature is optimal. Current matches RainMaker 2 baseline (~8.0A).,Maintain standard monthly visual inspection.,8.04,1.46
+11:28:07,Severe Cavitation,30,Extreme vibrations (9.475022641566538mm/s) exceeding ISO 10816 limits. Net Positive Suction Head (NPSH) critically low.,Reduce MPPT controller frequency to stabilize fluid velocity and check pump submergence depth.,8.13,9.48
+11:28:05,Severe Cavitation,30,Extreme vibrations (9.693188191940871mm/s) exceeding ISO 10816 limits. Net Positive Suction Head (NPSH) critically low.,Reduce MPPT controller frequency to stabilize fluid velocity and check pump submergence depth.,8.22,9.69
+11:28:03,Severe Cavitation,30,Extreme vibrations (9.740877600598399mm/s) exceeding ISO 10816 limits. Net Positive Suction Head (NPSH) critically low.,Reduce MPPT controller frequency to stabilize fluid velocity and check pump submergence depth.,8.27,9.74
+11:28:01,Severe Cavitation,30,Extreme vibrations (9.825961913174027mm/s) exceeding ISO 10816 limits. Net Positive Suction Head (NPSH) critically low.,Reduce MPPT controller frequency to stabilize fluid velocity and check pump submergence depth.,8.16,9.83
+11:27:59,Normal Operation,100,Telemetry signature is optimal. Current matches RainMaker 2 baseline (~8.0A).,Maintain standard monthly visual inspection.,8.04,1.26
+11:27:57,Normal Operation,100,Telemetry signature is optimal. Current matches RainMaker 2 baseline (~8.0A).,Maintain standard monthly visual inspection.,8.07,1.32
+11:27:55,Normal Operation,100,Telemetry signature is optimal. Current matches RainMaker 2 baseline (~8.0A).,Maintain standard monthly visual inspection.,8.11,1.34
+11:27:53,Normal Operation,100,Telemetry signature is optimal. Current matches RainMaker 2 baseline (~8.0A).,Maintain standard monthly visual inspection.,8.0,1.39
+11:27:51,Sand Clogging,10,Mechanical overload detected (11.843629572687318A > 8A nominal baseline). High impeller friction due to sand drag.,Extract pump from borehole. Clean intake strainers and inspect impellers for abrasive wear.,11.84,3.32
+11:27:49,Sand Clogging,10,Mechanical overload detected (11.77386163213537A > 8A nominal baseline). High impeller friction due to sand drag.,Extract pump from borehole. Clean intake strainers and inspect impellers for abrasive wear.,11.77,3.44
+11:27:47,Sand Clogging,10,Mechanical overload detected (11.948341166527547A > 8A nominal baseline). High impeller friction due to sand drag.,Extract pump from borehole. Clean intake strainers and inspect impellers for abrasive wear.,11.95,3.47
+11:27:45,Sand Clogging,10,Mechanical overload detected (11.711247796056787A > 8A nominal baseline). High impeller friction due to sand drag.,Extract pump from borehole. Clean intake strainers and inspect impellers for abrasive wear.,11.71,3.54
+11:27:43,Normal Operation,100,Telemetry signature is optimal. Current matches RainMaker 2 baseline (~8.0A).,Maintain standard monthly visual inspection.,8.08,1.5
+11:27:41,Normal Operation,100,Telemetry signature is optimal. Current matches RainMaker 2 baseline (~8.0A).,Maintain standard monthly visual inspection.,8.07,1.42
+11:27:39,Normal Operation,100,Telemetry signature is optimal. Current matches RainMaker 2 baseline (~8.0A).,Maintain standard monthly visual inspection.,8.04,1.3
+11:27:37,Normal Operation,100,Telemetry signature is optimal. Current matches RainMaker 2 baseline (~8.0A).,Maintain standard monthly visual inspection.,8.14,1.5
+11:27:35,Dry Running,20,Current (5.1053044642941945A) is abnormally low indicating loss of prime. Stator overheating risk.,IMMEDIATE SHUTDOWN. Verify static well water level and low-water probe calibration.,5.11,2.05
+11:27:33,Dry Running,20,Current (5.290672177222544A) is abnormally low indicating loss of prime. Stator overheating risk.,IMMEDIATE SHUTDOWN. Verify static well water level and low-water probe calibration.,5.29,2.11
+11:27:31,Dry Running,20,Current (5.288028419547964A) is abnormally low indicating loss of prime. Stator overheating risk.,IMMEDIATE SHUTDOWN. Verify static well water level and low-water probe calibration.,5.29,2.02
+11:27:29,Dry Running,20,Current (5.174758705951589A) is abnormally low indicating loss of prime. Stator overheating risk.,IMMEDIATE SHUTDOWN. Verify static well water level and low-water probe calibration.,5.17,2.18
+11:27:27,Normal Operation,100,Telemetry signature is optimal. Current matches RainMaker 2 baseline (~8.0A).,Maintain standard monthly visual inspection.,7.99,1.4
+11:27:25,Normal Operation,100,Telemetry signature is optimal. Current matches RainMaker 2 baseline (~8.0A).,Maintain standard monthly visual inspection.,7.98,1.4
+11:27:23,Normal Operation,100,Telemetry signature is optimal. Current matches RainMaker 2 baseline (~8.0A).,Maintain standard monthly visual inspection.,8.15,1.32
+11:27:21,Normal Operation,100,Telemetry signature is optimal. Current matches RainMaker 2 baseline (~8.0A).,Maintain standard monthly visual inspection.,8.0,1.38
+11:27:19,Normal Operation,100,Telemetry signature is optimal. Current matches RainMaker 2 baseline (~8.0A).,Maintain standard monthly visual inspection.,8.06,1.28
+11:27:17,Normal Operation,100,Telemetry signature is optimal. Current matches RainMaker 2 baseline (~8.0A).,Maintain standard monthly visual inspection.,8.05,1.55
+11:27:15,Normal Operation,100,Telemetry signature is optimal. Current matches RainMaker 2 baseline (~8.0A).,Maintain standard monthly visual inspection.,7.88,1.24
+11:27:13,Normal Operation,100,Telemetry signature is optimal. Current matches RainMaker 2 baseline (~8.0A).,Maintain standard monthly visual inspection.,8.21,1.26
+11:27:11,Severe Cavitation,30,Extreme vibrations (9.571635246441529mm/s) exceeding ISO 10816 limits. Net Positive Suction Head (NPSH) critically low.,Reduce MPPT controller frequency to stabilize fluid velocity and check pump submergence depth.,7.83,9.57
+11:27:09,Severe Cavitation,30,Extreme vibrations (9.788453195681006mm/s) exceeding ISO 10816 limits. Net Positive Suction Head (NPSH) critically low.,Reduce MPPT controller frequency to stabilize fluid velocity and check pump submergence depth.,8.0,9.79
+11:27:07,Severe Cavitation,30,Extreme vibrations (9.915049377443097mm/s) exceeding ISO 10816 limits. Net Positive Suction Head (NPSH) critically low.,Reduce MPPT controller frequency to stabilize fluid velocity and check pump submergence depth.,8.15,9.92
+11:27:05,Severe Cavitation,30,Extreme vibrations (9.758687718674057mm/s) exceeding ISO 10816 limits. Net Positive Suction Head (NPSH) critically low.,Reduce MPPT controller frequency to stabilize fluid velocity and check pump submergence depth.,8.14,9.76
+11:27:03,Normal Operation,100,Telemetry signature is optimal. Current matches RainMaker 2 baseline (~8.0A).,Maintain standard monthly visual inspection.,7.69,1.53
+11:27:01,Normal Operation,100,Telemetry signature is optimal. Current matches RainMaker 2 baseline (~8.0A).,Maintain standard monthly visual inspection.,8.08,1.32
+11:26:59,Normal Operation,100,Telemetry signature is optimal. Current matches RainMaker 2 baseline (~8.0A).,Maintain standard monthly visual inspection.,7.96,1.36
+11:26:57,Normal Operation,100,Telemetry signature is optimal. Current matches RainMaker 2 baseline (~8.0A).,Maintain standard monthly visual inspection.,8.12,1.32
+11:26:55,Sand Clogging,10,Mechanical overload detected (11.525193802231232A > 8A nominal baseline). High impeller friction due to sand drag.,Extract pump from borehole. Clean intake strainers and inspect impellers for abrasive wear.,11.53,3.49
+11:26:53,Sand Clogging,10,Mechanical overload detected (11.855833466589472A > 8A nominal baseline). High impeller friction due to sand drag.,Extract pump from borehole. Clean intake strainers and inspect impellers for abrasive wear.,11.86,3.33
+11:26:51,Sand Clogging,10,Mechanical overload detected (11.741510541869244A > 8A nominal baseline). High impeller friction due to sand drag.,Extract pump from borehole. Clean intake strainers and inspect impellers for abrasive wear.,11.74,3.35
+11:26:49,Sand Clogging,10,Mechanical overload detected (11.614779500427547A > 8A nominal baseline). High impeller friction due to sand drag.,Extract pump from borehole. Clean intake strainers and inspect impellers for abrasive wear.,11.61,3.42
+11:26:47,Normal Operation,100,Telemetry signature is optimal. Current matches RainMaker 2 baseline (~8.0A).,Maintain standard monthly visual inspection.,8.13,1.35
+11:26:45,Normal Operation,100,Telemetry signature is optimal. Current matches RainMaker 2 baseline (~8.0A).,Maintain standard monthly visual inspection.,8.06,1.48
+11:26:43,Normal Operation,100,Telemetry signature is optimal. Current matches RainMaker 2 baseline (~8.0A).,Maintain standard monthly visual inspection.,7.9,1.22
+11:26:41,Normal Operation,100,Telemetry signature is optimal. Current matches RainMaker 2 baseline (~8.0A).,Maintain standard monthly visual inspection.,8.0,1.55
