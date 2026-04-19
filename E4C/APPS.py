@@ -132,7 +132,7 @@ st.markdown(f"""
         </div>
         <div style="text-align: right; font-family: 'Orbitron';">
             <div style="font-size: 20px; color: #a0aec0;">SYSTEM TIME</div>
-            <div style="font-size: 16px;">{datetime.now().strftime('%H:%M:%S UTC')}</div>
+            <div style="font-size: 16px;">{datetime.now().strftime('%H:%M:%S GMT')}</div>
         </div>
     </div>
     """, unsafe_allow_html=True)
