@@ -164,7 +164,7 @@ def generate_telemetry(mode):
 # MAIN TABS
 # ==========================================
 tab_live, tab_hist, tab_asset, tab_chat, tab_settings = st.tabs([
-    "🔴 LIVE DASHBOARD", " AUDIT LOG", " TECHNICAL SPECS (E4C)", " AI ASSISTANT", " SETTINGS"
+    "◉ LIVE DASHBOARD", " AUDIT LOG", " TECHNICAL SPECS (E4C)", " AI ASSISTANT", " SETTINGS"
 ])
 
 # ==========================================
@@ -178,7 +178,7 @@ def render_live_dashboard():
     else:
         modes = ["Normal", "Normal", "Dry Run", "Normal", "Sand Clogging", "Normal", "Cavitation"]
         mode = modes[int((time.time() // 8) % len(modes))]
-        st.caption(f" **Auto-Sequence Active:** Currently testing {mode.upper()} scenario.")
+        st.caption(f" **⨝ Auto-Sequence Active:** Currently testing {mode.upper()} scenario.")
 
     ir, cu, te, vi, fl, he = generate_telemetry(mode)
 
