@@ -147,7 +147,7 @@ auto_mode = st.sidebar.toggle("Auto-Showroom Mode", value=True)
 if not auto_mode:
     manual_mode = st.sidebar.radio("Force Inject Fault:", ["Normal", "Dry Run", "Sand Clogging", "Cavitation"])
 else:
-    st.sidebar.info("🤖 Auto-Showroom Active. Rotating scenarios automatically.")
+    st.sidebar.info(" Auto-Showroom Active. Rotating scenarios automatically.")
 
 def generate_telemetry(mode):
     hour = datetime.now().hour + datetime.now().minute/60
@@ -164,7 +164,7 @@ def generate_telemetry(mode):
 # MAIN TABS
 # ==========================================
 tab_live, tab_hist, tab_asset, tab_chat, tab_settings = st.tabs([
-    "🔴 LIVE DASHBOARD", "📋 AUDIT LOG", "⚙️ TECHNICAL SPECS (E4C)", "🤖 AI ASSISTANT", "🔧 SETTINGS"
+    "🔴 LIVE DASHBOARD", " AUDIT LOG", " TECHNICAL SPECS (E4C)", " AI ASSISTANT", " SETTINGS"
 ])
 
 # ==========================================
@@ -174,7 +174,7 @@ tab_live, tab_hist, tab_asset, tab_chat, tab_settings = st.tabs([
 def render_live_dashboard():
     if not auto_mode:
         mode = manual_mode
-        st.caption(f"🕹️ **Manual Override Active:** Injecting {mode.upper()} fault data.")
+        st.caption(f" **Manual Override Active:** Injecting {mode.upper()} fault data.")
     else:
         modes = ["Normal", "Normal", "Dry Run", "Normal", "Sand Clogging", "Normal", "Cavitation"]
         mode = modes[int((time.time() // 8) % len(modes))]
@@ -218,9 +218,9 @@ def render_live_dashboard():
     
     st.markdown("#### Global System Health")
     if res['status'] == "Healthy": 
-        st.success(f"✅ STATUS: {res['issue'].upper()} | HEALTH SCORE: {res['health']}%")
+        st.success(f" STATUS: {res['issue'].upper()} | HEALTH SCORE: {res['health']}%")
     else: 
-        st.error(f"🚨 STATUS: {res['issue'].upper()} | HEALTH SCORE: {res['health']}%")
+        st.error(f" STATUS: {res['issue'].upper()} | HEALTH SCORE: {res['health']}%")
     
     st.info(f"**AI Diagnostic:** {res['exp']}")
     st.warning(f"**Field Operator Recommendation (SOP):** {res['sop']}")
@@ -263,27 +263,27 @@ with tab_asset:
     
     c_t1, c_t2, c_t3 = st.columns(3)
     with c_t1:
-        st.markdown(f"#### 🌊 RainMaker 2 (Primary Baseline)")
+        st.markdown(f"####  RainMaker 2 (Primary Baseline)")
         st.markdown("- **Type:** Solar-battery-powered submersible")
         st.markdown("- **Performance:** 50 L/min at 70m depth")
         st.markdown(f"- **Max Current:** <span style='color:{PRIMARY_COLOR}; font-weight:bold;'>8.0 A</span>", unsafe_allow_html=True)
         st.markdown("- **Voltage Range:** 24–34 V")
     
     with c_t2:
-        st.markdown("#### ⚡ Shurflo 9300 Series")
+        st.markdown("####  Shurflo 9300 Series")
         st.markdown("- **Type:** Solar submersible (low-flow)")
         st.markdown("- **Performance:** 82 gal/h at 230 ft")
         st.markdown("- **Min Solar Array:** 155 W")
         st.markdown("- **Voltage:** 24 VDC")
 
     with c_t3:
-        st.markdown("#### 🛠️ Pumpmakers DIY & SDS-T-128")
+        st.markdown("####  Pumpmakers DIY & SDS-T-128")
         st.markdown("- **Pumpmakers:** Open-source, surface crankshaft, up to 100m depth, 18,000 L/day.")
         st.markdown("- **SDS-T-128:** Low-cost positive displacement, 12-30 V DC, 4-inch well casing.")
         st.markdown("- **GF1:** 12/24 V DC for remote irrigation.")
 
     st.divider()
-    st.markdown("### 🧠 AI Diagnostic Thresholds (Strivers Predictive Layer)")
+    st.markdown("###  AI Diagnostic Thresholds (Strivers Predictive Layer)")
     st.markdown(f"""
     - **Nominal Current (FLA):** 8.0 A (RainMaker 2 Spec)
     - **Sand Clogging Alert:** > 11.0 A *(High impeller friction detected)*
@@ -292,7 +292,7 @@ with tab_asset:
     """)
 
 with tab_chat:
-    st.markdown("### 🤖 STRIVERS Field AI Assistant")
+    st.markdown("###  STRIVERS Field AI Assistant")
     st.caption("Ask questions about E4C pump specifications, diagnostic thresholds, or SOPs.")
     
     chat_container = st.container(height=400)
